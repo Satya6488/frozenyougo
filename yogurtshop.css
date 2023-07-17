@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header by sir start */
+.header-part{
+    border: solid 0px;
+    height: 75px;
+    width: 100%;
+    background-color: #eeebec;
+
+    display: flex;
+}
+
+.header-logo{
+    height: 75px;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-links{
+    height: 75px;
+    width: 60%;
+}
+
+.header-links ul{
+    height: 75px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-links a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: gray;
+    align-items: center;
+}
+
+.header-links a:hover{
+    color: #c8c10d;
+}
+
+.header-links a{
+    margin-top: 2px;
+}
+
+.hidden-links a{
+    color: #eeebec;
+    height: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+/* header by sir end  */
+
+.firstbg{
+    background-image: url(./yogurtbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+    position: relative;
+  
+    
+}
+.crcl2{
+    border: none;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 470px;
+    left: 890px;
+    background-color: greenyellow;
+    
+}
+.crcl{
+    
+    border: none;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 465px;
+    left: 900px;
+    background-color: deeppink;
+    opacity: 75%;
+
+  
+}
+.cot{
+    margin-left: 15px;
+    margin-top:40px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+}
+.descb{
+    background-color:gainsboro;
+    align-items: center;
+}
+.desc{
+    
+    font-size: 20px;
+    margin-left: 300px;
+}
+.newpro{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color:chocolate;
+    font-family:monospace;
+    font-weight: bolder;
+}
+.twist{
+    font-size: 30px;
+    font-family:sans-serif ;
+    color: deeppink;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    
+}
+
+/* .glass{
+    position: absolute;
+    align-items: end;
+background-image: url(./yogurtglass.jpg);
+} */
+.aboutwebsite{
+    color:rgb(109, 109, 109);
+    line-height: 25px;
+}
+.ourproducticon{
+    border: solid 1px gray;
+    background:yellowgreen;
+    height: 140px;
+    display: flex;
+    justify-content:center;
+
+}
+.ourproducticon ul{
+
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+    margin-left:100px;
+}
+.ourproducticon li{
+    margin-top:20px;
+    margin-right:80px; 
+   align-items: center;
+}
+.ourproducticon a{
+    text-decoration: none;
+
+}
+.product img{
+    height: 50px;
+    width: 70px;
+    display: block;
+}
+.ourstory img{
+    height: 50px;
+    width: 70px;
+    display: block;
+    margin-left: 10px;
+}
+.flavors img{
+    height: 50px;
+    width: 70px;
+    display: block;
+    margin-left: 0px;
+}
+.ourloc img{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: 35px;
+}
+.descb{
+    display: flex;
+}
+.glass{  
+    margin-left: 150px;
+    margin-bottom: 0px;
+}
+.contact img{  
+    
+    height: 50px;
+    width: 50px;
+    display: flex;
+    }
+/* .icon img{
+    align-items: center;
+   display:flex;
+
+} */ 
+.contact{
+    
+    border: solid 1px rgb(165, 163, 107);
+    background:rgb(176, 61, 151);
+    height: 140px;
+    display: flex;
+    justify-content:center;
+
+}
+.contact ul{
+    margin-left:100px;
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+.contact li{
+    margin-top:20px;
+    margin-right:80px; 
+   align-items: center;
+}
+/* blog */
+.blog{
+    border: solid 1px bisque;
+    height: 50px;
+    background-color: burlywood;
+    text-align:center;
+    padding-top: 50px;
+    
+}
+.about{
+    border: solid 1px bisque;
+    height: 50px;
+    background-color: burlywood;
+    text-align:center;
+    padding-top: 50px; 
+}
+.backimg{
+    background-image: url(./aboutimg.jpg);
+    height: 300px;
+}
+.sidecont{
+    border:2px solid goldenrod;
+    height: 500px;
+    width: 250px;
+    margin-left: 200px;
+}
